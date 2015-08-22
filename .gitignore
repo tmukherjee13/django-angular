@@ -55,3 +55,14 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#pip stuff
+include/
+local/
+logs/
+run/
+bin/*
+!bin/gunicorn_start
+
+#Database
+*.sqlite3
